@@ -5,7 +5,7 @@ MAINTAINER akv.tcs@gmail.com abhinav kumar
 
 WORKDIR /tmp/myprojectrun/
 
-COPY Dockerfile /tmp/myprojectrun/ && mYcmd.ps1 /tmp/myprojectrun/ && README.md /tmp/myprojectrun/ && Test.htm /tmp/myprojectrun/ && URLList.txt /tmp/myprojectrun/
+COPY Dockerfile && mYcmd.ps1 && README.md && Test.htm && URLList.txt
 
 RUN snap install powershell --classic
 
