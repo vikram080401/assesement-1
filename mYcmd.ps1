@@ -9,7 +9,7 @@
 
 
 ## The URI list to test
-$URLListFile = "C:\Users\Abhinav\Documents\Asessment-1\URLList.txt" 
+$URLListFile = "assesement-1/URLList.txt" 
 $URLList = Get-Content $URLListFile -ErrorAction SilentlyContinue
   $Result = @()
   
@@ -58,5 +58,6 @@ if($result -ne $null)
     $Outputreport += "</Table></BODY></HTML>"
 }
 
-$Outputreport | out-file C:\Users\Abhinav\Documents\Asessment-1\Test.htm
-Invoke-Expression C:\Users\Abhinav\Documents\Asessment-1\Test.htm  
+$Outputreport | out-file assesement-1/Test.htm
+Invoke-Expression assesement-1/Test.htm
+
