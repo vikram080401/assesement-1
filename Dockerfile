@@ -3,9 +3,7 @@ FROM ubuntu
 MAINTAINER akv.tcs@gmail.com abhinav kumar
 
 
-WORKDIR /tmp/myprojectrun/
-
-COPY Dockerfile && mYcmd.ps1 && README.md && Test.htm && URLList.txt
+WORKDIR assesement-1
 
 RUN snap install powershell --classic
 
